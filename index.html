@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>gamelift survey form</title>
+    <link rel="stylesheet" href="projects.css"/>
+</head>
+<body>
+    <div class="background_image">
+    <h1 id="title">Gamelift Survey Form</h1>
+    <p id="description">
+        Thank you for taking the time to help us improve the platform
+    </p>
+    
+    <form id="survey-form">
+        <fieldset>
+        <label id="name-label">Enter Your Name:<input type="text" id="name" placeholder="Please enter your name..." required /></label>
+        <label id="email-label">Enter Your Email:<input type="email" id="email" placeholder="Please enter your email..." required /> </label>
+        <label id="number-label">Enter Required Age:<input type="number" id="number" min="12" max="70" placeholder="Enter required age limit" required /></label>
+        <label>which option describes you best?:
+            <select id="dropdown">
+                <option>select one</option>
+                <option>Beginner</option>
+                <option>Professional</option>
+                <option>Legend</option>
+            </select>
+        </label>
+    </fieldset>
+        <fieldset>
+            <legend>Would you recommend Gamelift to a friend?:</legend>
+            <label for="yes"><input type="radio" name="recommend" id="yes"  class="inline"  value="yes" checked required />Yes</label>
+            <label for="no"><input type="radio" name="recommend" id="no"  class="inline"  value="no" required />No</label>
+            <label for="rather-not-say"><input type="radio" name="recommend"  class="inline"  id="rather-not-say" value="rather-not-say" required />Rather Not Say</label>
+        </fieldset>
+        <fieldset>
+            <legend>What types of games interest you?:</legend>
+            <label for="fighting"><input type="checkbox" id="fighting" class="inline" value="fighting" name="interest" checked required />Fighting</label>
+            <label for="puzzle"><input type="checkbox" id="puzzle"  class="inline"  value="puzzle" name="interest" required />Puzzle</label>
+            <label for="racing"><input type="checkbox" id="racing"  class="inline"  value="racing" name="interest" required />Racing</label>
+            <label for="sports"><input type="checkbox" id="sports"  class="inline"  value="sports" name="interest" required />Sports</label>
+            <label for="action"><input type="checkbox" id="action"  class="inline"  value="action" name="interest" required />Action</label>
+            <label for="strategy"><input type="checkbox" id="strategy"  class="inline"  value="strategy" name="interest" required />Strategy</label>
+            <label for="casual-game"><input type="checkbox" id="casual-game"  class="inline"  value="casual-game" name="interest" required />Casual game</label>
+            <label for="adventure"><input type="checkbox" id="adventure"  class="inline"  value="adventure" name="interest" required />Adventure</label>
+            <label for="video-game"><input type="checkbox" id="video-game"  class="inline"  value="video-game" name="interest" required />Video game</label>
+            <label for="shooter"><input type="checkbox" id="shooter" value="shooter"  class="inline"  name="interest" required />Shooter</label>
+        </fieldset>
+        <fieldset>
+        <legend>Any comments or suggestion?:</legend>
+        <textarea rows="3" cols="30" placeholder="Enter your comments..."></textarea>
+        </fieldset>
+        <input type="submit" id="submit" value="Submit" name="submit-button" />
+    </form>
+    </div>
+</div>
+</body>
+</html>
