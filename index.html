@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>dont worry</title>
+    <link rel="stylesheet" href="untitled.css" />
+</head>
+<body>
+    <img src="art.jpg" alt="" />
+    <div class="image"></div>
+        <div>
+            <h1 id="title">Gamelift Survey Form</h1>
+            <p id="description">
+                Thank you for taking the time to help us improve the platform
+            </p>
+            <form id="survey-form">
+                <fieldset>
+                    <label id="name-label"><b>Enter Your Name</b><input type="text" id="name" placeholder="Please enter your name..." required /></label>
+                    <label id="email-label"><b>Enter Your Enter Your Email</b><input type="email" id="email" placeholder="Please enter your email..." required /> </label>
+                    <label id="number-label"><b>Enter Required Age</b><input type="number" id="number" min="12" max="70" placeholder="Enter required age limit" required /></label>
+                    <label><b>which option describes you best?</b>
+                        <select id="dropdown">
+                            <option>select one</option>
+                            <option>Beginner</option>
+                            <option>Professional</option>
+                            <option>Legend</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend><b>Would you recommend Gamelift to a friend?</b></legend>
+                    <label for="yes"><input type="radio" name="recommend" id="yes" value="yes" checked /><em>Yes</em></label>
+                    <label for="no"><input type="radio" name="recommend" id="no" value="no" /><em>No</em></label>
+                    <label for="rather-not-say"><input type="radio" name="recommend" id="rather-not-say" value="rather-not-say" /><em>Rather Not Say</em></label>
+                </fieldset>
+                <fieldset>
+                    <legend><b>What types of games interest you?</b></legend>
+                    <label for="fighting"><input type="checkbox" id="fighting" value="fighting" name="interest" checked /><em>Fighting</em></label>
+                    <label for="puzzle"><input type="checkbox" id="puzzle" value="puzzle" name="interest" /><em>Puzzle</em></label>
+                    <label for="racing"><input type="checkbox" id="racing" value="racing" name="interest" /><em>Racing</em></label>
+                    <label for="sports"><input type="checkbox" id="sports" value="sports" name="interest" /><em>Sports</em></label>
+                    <label for="action"><input type="checkbox" id="action" value="action" name="interest" /><em>Action</em></label>
+                    <label for="strategy"><input type="checkbox" id="strategy" value="strategy" name="interest" /><em>Strategy</em></label>
+                    <label for="casual-game"><input type="checkbox" id="casual-game" value="casual-game" name="interest" /><em>Casual game</em></label>
+                    <label for="adventure"><input type="checkbox" id="adventure" value="adventure" name="interest" /><em>Adventure</em></label>
+                    <label for="video-game"><input type="checkbox" id="video-game" value="video-game" name="interest" /><em>Video game</em></label>
+                    <label for="shooter"><input type="checkbox" id="shooter" value="shooter" name="interest" /><em>Shooter</em></label>
+                </fieldset>
+                <fieldset>
+                    <label>Any comments or suggestion?<textarea rows="3" cols="30" placeholder="Enter your comments..."></textarea></label>
+                    <input type="submit" id="submit" value="Submit" name="submit-button" />
+                </fieldset>
+            </form>
+            <footer>
+                <p>
+                    copyright @ Gamelift
+                </p>
+            </footer>
+        </div>
+</body>
+</html>
