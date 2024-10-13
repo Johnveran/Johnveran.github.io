@@ -48,20 +48,19 @@ label {
 
 select {
     color: white;
+    min-height: 2.5em;
 }
 
 input, select {
     width: 100%;
-    margin: 10px 0 auto auto;
+    margin: 10px 0 0 0;
     background-color: rgba(255, 255, 255, 50%);
     color: #0022F8;
     border: 4px double rgba(255, 255, 255);
-    height: 2.5em;
+    min-height: 2.5em;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     box-shadow: 0 2px 5px 0 black;
-    max-width: 500px;
-    
 }
 
 textarea {
@@ -92,6 +91,7 @@ fieldset {
     border-bottom: 2px solid white;
     max-width: 500px;
     min-width: 200px;
+    padding: 5px;
 }
 
 fieldset:last-of-type {
@@ -122,6 +122,7 @@ input[type="submit"] {
 }
 
 div {
+    background-color: #8000FF50;
     width: 100%;
     height: 100%;
     margin: 0;
