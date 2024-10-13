@@ -52,7 +52,7 @@ select {
 
 input, select {
     width: 100%;
-    margin: 10px 0 0 0;
+    margin: 10px 0 auto auto;
     background-color: rgba(255, 255, 255, 50%);
     color: #0022F8;
     border: 4px double rgba(255, 255, 255);
