@@ -1,0 +1,89 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+div{
+    position: absolute;
+}
+h1, p{
+    font-family: Times New Roman;
+    text-align: center;
+    color: white;
+}
+form{
+    width: 80vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: #00000050;
+    padding: 1em 5px;
+    border-radius: 15px;
+}
+fieldset{
+    margin: 1em auto;
+    border: none;
+    border-bottom: 2px solid white;
+}
+fieldset:last-of-type{
+    border-bottom: none;
+}
+label{
+    display: block;
+    
+}
+input, select, textarea{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 70%);
+    border: 4px double rgba(255, 255, 255);
+    margin: 5px auto;
+    margin-bottom: 10px;
+    min-height: 2em;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0 2px 5px 0 black;
+}
+select{
+    
+}
+input[type="radio"], input[type="checkbox"]{
+    height: ;
+    width: unset;
+    vertical-align: middle;
+    margin: 0.5rem 0;
+    margin-right: 5px;
+    box-shadow: 0 0 0 0;
+}
+input[type="submit"]{
+    display: block;
+    width: 50%;
+    background: #B900FF;
+    color: white;
+    margin: 1em auto;
+    border: 2px solid white;
+    font-size: 16px;
+    border-radius: 25px;
+}
+input:valid{
+    border: 4px double #81FF00;
+}
+input[type="submit"]:valid{
+    border: 4px double rgba(255, 255, 255);
+}
+.image{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ADADADa0;
+}
