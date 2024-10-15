@@ -13,7 +13,10 @@ img{
     position: fixed;
 }
 div{
+    width: 100%;
     position: absolute;
+    top: 0;
+    left: 0;
 }
 h1, p{
     font-family: Times New Roman;
@@ -34,7 +37,7 @@ fieldset{
     margin: 1em auto;
     border: none;
     border-bottom: 2px solid white;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 fieldset:last-of-type{
     border-bottom: none;
@@ -85,6 +88,7 @@ input[type="submit"]:valid{
 .image{
     width: 100%;
     height: 100%;
+    margin: 0 auto;
     position: fixed;
     top: 0;
     left: 0;
