@@ -1,63 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang=en>
+
 <head>
-    <meta name="description" content="johnveranupo"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>dont worry</title>
-    <link rel="stylesheet" href="main.css" />
+  <meta charset="utf-8" />
+  <meta name="description" content="Nelson Mandela Tribute Page test" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <img src="art.jpg" alt="" />
-    <div class="image"></div>
-        <div>
-            <h1 id="title">Gamelift Survey Form</h1>
-            <p id="description">
-                Thank you for taking the time to help us improve the platform
-            </p>
-            <form id="survey-form">
-                <fieldset>
-                    <label id="name-label"><b>Enter Your Name</b><input type="text" id="name" placeholder="Please enter your name..." required /></label>
-                    <label id="email-label"><b>Enter Your Enter Your Email</b><input type="email" id="email" placeholder="Please enter your email..." required /> </label>
-                    <label id="number-label"><b>Enter Required Age</b><input type="number" id="number" min="12" max="70" placeholder="Enter required age limit" required /></label>
-                    <label><b>which option describes you best?</b>
-                        <select id="dropdown">
-                            <option>select one</option>
-                            <option>Beginner</option>
-                            <option>Professional</option>
-                            <option>Legend</option>
-                        </select>
-                    </label>
-                </fieldset>
-                <fieldset>
-                    <legend><b>Would you recommend Gamelift to a friend?</b></legend>
-                    <label for="yes"><input type="radio" name="recommend" id="yes" value="yes" checked /><em>Yes</em></label>
-                    <label for="no"><input type="radio" name="recommend" id="no" value="no" /><em>No</em></label>
-                    <label for="rather-not-say"><input type="radio" name="recommend" id="rather-not-say" value="rather-not-say" /><em>Rather Not Say</em></label>
-                </fieldset>
-                <fieldset>
-                    <legend><b>What types of games interest you?</b></legend>
-                    <label for="fighting"><input type="checkbox" id="fighting" value="fighting" name="interest" checked /><em>Fighting</em></label>
-                    <label for="puzzle"><input type="checkbox" id="puzzle" value="puzzle" name="interest" /><em>Puzzle</em></label>
-                    <label for="racing"><input type="checkbox" id="racing" value="racing" name="interest" /><em>Racing</em></label>
-                    <label for="sports"><input type="checkbox" id="sports" value="sports" name="interest" /><em>Sports</em></label>
-                    <label for="action"><input type="checkbox" id="action" value="action" name="interest" /><em>Action</em></label>
-                    <label for="strategy"><input type="checkbox" id="strategy" value="strategy" name="interest" /><em>Strategy</em></label>
-                    <label for="casual-game"><input type="checkbox" id="casual-game" value="casual-game" name="interest" /><em>Casual game</em></label>
-                    <label for="adventure"><input type="checkbox" id="adventure" value="adventure" name="interest" /><em>Adventure</em></label>
-                    <label for="video-game"><input type="checkbox" id="video-game" value="video-game" name="interest" /><em>Video game</em></label>
-                    <label for="shooter"><input type="checkbox" id="shooter" value="shooter" name="interest" /><em>Shooter</em></label>
-                </fieldset>
-                <fieldset>
-                    <label>Any comments or suggestion?<textarea rows="3" cols="30" placeholder="Enter your comments..."></textarea></label>
-                    <input type="submit" id="submit" value="Submit" name="submit-button" />
-                </fieldset>
-            </form>
-            <footer>
-                <p>
-                    copyright 2017 Gamelift
-                </p>
-            </footer>
+  <main id="main">
+    <header>
+      <h1 id="title">Nelson Mandela</h1>
+    </header>
+    <section role="region" arialabelledby="img-div" class="img-section">
+      <div id="img-div">
+        <figure>
+          <figcaption id="img-caption"><em>Nelson Mandela one of the greatest political leaders.</em>
+            <figcaption>
+              <img id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4LwE510ntC8wAItLr7j4PFHsehVegBR7jnA&usqp=CAU" alt="nelson mandela img">
+        </figure>
+        <div id="tribute-info">
+          <p>
+            <i>Nelson Mandela was a South African anti-apartheid revolutionary, political leader and philanthropist who served as President of South Africa from 1994 to 1999. He was the country's first black head of state and the first elected in a fully representative democratic election.</i>
+          </p>
         </div>
+    </section>
+    <section role="region" arealabelledby="time-line" id="time-line">
+      <div id="timeline">
+        <h2>Nelson Mandela timeline:</h2>
+        <article>
+          <p class="date">18 July 1918</p>
+          <p class="event">Nelson Rolihlahla Mandela is born at Mvezo in the Transkei</p>
+        </article>
+        <article>
+          <p class="date">1935</p>
+          <p class="event">Attends primary school near Qunu (receives the name ‘Nelson’ from a teacher)</p>
+        </article>
+        <article>
+          <p class="date">1937</p>
+          <p class="event">Enrols at Healdtown, the Wesleyan College at Fort Beaufort</p>
+        </article>
+        <article>
+          <p class="date">1939</p>
+          <p class="event">Enrols at the University of Fort Hare in Alice</p>
+        </article>
+        <article>
+          <p class="date">1940</p>
+          <p class="event">Is expelled from the University of Fort Hare</p>
+        </article>
+        <article>
+          <p class="date">1941</p>
+          <p class="event">Escapes an arranged marriage; becomes a mine security officer; starts articles at the law
+            firm Witkin,Sidelsky & Eidelman</p>
+        </article>
+        <article>
+          <p class="date">1942</p>
+          <p class="event">Completes his BA through Unisa</p>
+        </article>
+        <article>
+          <p class="date">1943</p>
+          <p class="event">Enrols for an LLB at Wits University</p>
+        </article>
+        <article>
+          <p class="date">1944</p>
+          <p class="event">Co-founds the ANC Youth League; marries Evelyn Mase</p>
+        </article>
+        <article>
+          <p class="date">1948</p>
+          <p class="event">Is elected National Secretary of the ANC Youth League</p>
+        </article>
+        <article>
+          <p class="date">1951</p>
+          <p class="event">Is elected President of the ANC Youth League</p>
+        </article>
+        <article>
+          <p class="date">1952</p>
+          <p class="event">Sentenced to nine months in prison suspended for two years with 19 others;is banned for the
+            first time; is asked to leave Wits over unpaid debt; starts South Africa’s first black law firm, Mandela &
+            Tambo</p>
+        </article>
+        <article>
+          <p class="date">1955</p>
+          <p class="event">Watches in secret as the Freedom Charter is adopted in Kliptown</p>
+        </article>
+        <article>
+          <p class="date">1956</p>
+          <p class="event">Is arrested and charged with high treason with 155 others</p>
+        </article>
+        <article>
+          <p class="date">1960</p>
+          <p class="event">ANC and PAC are banned after the Sharpeville Massacre</p>
+        </article>
+        <article>
+          <p class="date">1961</p>
+          <p class="event">Is acquitted in Treason Trial; goes underground; calls on Verwoerd to set up talks on a
+            non-racial future for South Africa; calls for a three-day strike in May over South Africa becoming a
+            republic; is selected as Commander-in-Chief of Umkhonto weSizwe</p>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <p>Read more about this incredible human being.</p>
+      <address><a id="tribute-link" target="_blank" href="https://mbongee.github.io/Tribute-Page/">Nelson Mandela
+          Foundation</a>
+        <address>
+    </footer>
+    <div>
+    </div>
+  </main>
 </body>
+
 </html>
