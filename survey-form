@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="styles.css">
+<img src="https://plus.unsplash.com/premium_photo-1673514503544-1b8c10dd8019?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YXJ0JTIwZHJhd2luZ3xlbnwwfHwwfHx8MA%3D%3D">
+<div class="image"></div>
+<h1 id="title">Diamond Survey Form</h1>
+<p id="description">We thank you for taking your time to help this community grow.<p>
+<form id="survey-form">
+  <label for="name" id="name-label">Name <input type="text" id="name" placeholder="Please enter your name..." required /></label>
+<label for="email" id="email-label">Email <input type="email" id="email" placeholder="Please enter your email..." required /></label>
+  <label for="number" id="number-label">Age <input type="number" id="number" min="13" max="100" placeholder="Please enter your age..." required /></label>
+<label for="dropdown" id="dropdown-label"> Which option best describe your art skill 
+<select id="dropdown">
+  <option name="">Select</option>
+  <option name="1">Painting</option>
+  <option name="2">Pencil drawing</option>
+  <option name="3">Sculpting</option>
+  <option name="4">Carving</option>
+  <option name="5">Other</option>
+</select>
+</label>
+
+<label>How would you rate us
+<fieldset>
+  <label for="good"><input type="radio" name="rating"  id="good" value="good" checked> Good<label>
+  <label for="bad"><input type="radio" name="rating"  id="bad" value="bad"> Bad<label> 
+  <label for="not-sure"><input type="radio" name="rating"  id="not-sure" value="not-sure"> Not Sure<label>
+</fieldset>
+</label>
+
+<label>What materials/tools would you like to be added to our list
+<fieldset>
+  <label for="charcoal pencils"><input type="checkbox" name="tool-checkbox" value="charcoal pencils" id="charcoal pencils"> Charcoal Pencils</label>
+  <label for="graphite pencils"><input type="checkbox" name="tool-checkbox" value="graphite pencils" id="graphite pencils"> Graphite Pencils</label>
+  <label for="Lumograph pencils"><input type="checkbox" name="tool-checkbox" value="Lumograph pencils" id="Lumograph pencils"> Lumograph Pencils</label>
+  <label for="kneadable eraser"><input type="checkbox" name="tool-checkbox" value="kneadable eraser" id="kneadable eraser"> Kneadable Eraser</label>
+  <label for="bristol board"><input type="checkbox" name="tool-checkbox" value="bristol board" id="bristol board"> Bristol Board</label>
+  <label for="acrylic paint"><input type="checkbox" name="tool-checkbox" value="acrylic paint" id="acrylic paint"> Acrylic Paint</label>
+  <label for="charcoal powder"><input type="checkbox" name="tool-checkbox" value="charcoal powder" id="charcoal powder"> Charcoal Powder</label>
+  <label for="Graphite Powder"><input type="checkbox" name="tool-checkbox" value="Graphite Powder" id="Graphite Powder"> Graphite Powder</label>
+  <label for="cotton wool"><input type="checkbox" name="tool-checkbox" value="cotton wool" id="cotton wool"> Cotton Wool</label>
+  <label for="blending stomps"><input type="checkbox" name="tool-checkbox" value="blending stomps" id="blending stomps"> Blending Stomps</label>
+</fieldset>
+
+<label>Type your comment or suggestion <textarea rows="3" cols="30" placeholder="input your comment or suggestion"></textarea>
+<input type="submit" id="submit" />
+</form>
