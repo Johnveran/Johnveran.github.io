@@ -50,7 +50,8 @@ p{
 }
 #img-div{
   width: 100%;
-  
+  max-width: 370px;
+  margin: 0 auto;
   background-color: #D3D3D3;
   /*padding: 10px;*/
   border-radius: 0 0 20px 20px;
@@ -69,6 +70,8 @@ article{
 }
 #timeline{
   padding: 10px;
+  max-width: 740px;
+  margin: 0 auto;
 }
 #timeline h2{
   letter-spacing: 5;
